@@ -134,7 +134,9 @@ font-size: 2rem;
    
 
     background:var(--opacity),
-    url('/Images/banners/wedding_day_banner.JPG');
+    url("https://raw.githubusercontent.com/shahdelhlwaney/FlowerShop/main/Images/banners/wedding_day_banner.JPG");
+
+    /* url('./Images/banners/wedding_day_banner.JPG'); */
     background-size: cover;
 
     background-position: center;
