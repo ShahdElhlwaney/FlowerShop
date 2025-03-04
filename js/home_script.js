@@ -33,7 +33,7 @@ minEls.forEach(function(currentValue, index){
 }
 );
 document.querySelector('.nav-contactus').addEventListener('click',function(){
-    window.location='/contact_us.html';
+    window.location='contact_us.html';
     console.log('true');
 });
 const addExp=function(a,b){
