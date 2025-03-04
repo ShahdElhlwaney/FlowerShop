@@ -144,7 +144,7 @@ font-size: 2rem;
 }
 .card2{
     background:var(--opacity),
-    url('/Images/banners/tulip.png');
+    url('https://shahdelhlwaney.github.io/FlowerShop/Images/banners/tulip.png');
 
     background-size: cover;
 
@@ -153,7 +153,7 @@ font-size: 2rem;
 }
 .card3{
     background:var(--opacity),
-    url('/Images/banners/black_friday_img.jpg');
+    url('https://shahdelhlwaney.github.io/FlowerShop/Images/black_friday_img.jpg');
     background-size: cover;
 
     background-position: center;
@@ -254,49 +254,49 @@ h2,p{
     cursor: pointer;
  }
 #img1{
-    background-image: url("./Images/new_products/colored_bouquet.jpg");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/colored_bouquet.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img2{
-    background-image: url("./Images/new_products/white_bouquet.jpg");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/white_bouquet.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img3{
-    background-image: url("./Images/new_products/violet_bouquet.jpg");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/violet_bouquet.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img4{
-    background-image: url("./Images/new_products/classic_pink_bouquet.jpg");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/classic_pink_bouquet.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img5{
-    background-image: url("./Images/new_products/red_bouquet.png");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/red_bouquet.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img6{
-    background-image: url("./Images/new_products/image297_1024x.png");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/image297_1024x.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img7{
-    background-image: url("./Images/new_products/blue_bouquet.png");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/blue_bouquet.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 #img8{
-    background-image: url("./Images/new_products/light_pink_bouquet.jpg");
+    background-image: url("https://shahdelhlwaney.github.io/FlowerShop/Images/new_products/light_pink_bouquet.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -367,14 +367,14 @@ button{
 }
 .banner1{
     background:var(--opacity),
-    url('./Images/banners/delicate-pink-peony-flower-light-pink-background_119828-655.jpg');
+    url('https://shahdelhlwaney.github.io/FlowerShop/Images/banners/delicate-pink-peony-flower-light-pink-background_119828-655.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .banner2{
     background:var(--opacity),
-    url('./Images/banners/bouquet-pink-tulips-pink-background_198639-62295.jpg');
+    url('https://shahdelhlwaney.github.io/FlowerShop/Images/banners/bouquet-pink-tulips-pink-background_198639-62295.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
