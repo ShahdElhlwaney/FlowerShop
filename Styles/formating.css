@@ -1,0 +1,71 @@
+
+ body{
+  background-image:url('/Images/flower.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+  overflow:hidden;
+  margin: 0px;
+}
+:root{
+  font-size: 100px;
+}
+.shop_head{
+  position: fixed;
+  right: 10%;
+  text-transform:uppercase;
+  text-align: center;
+  width: 30vw;
+  height:100vh;
+  font-size: 30%;
+  translate: 0 30%;
+}
+#url{
+  translate: 0 -100px ;
+  text-transform: lowercase;
+  word-wrap: break-word;
+}
+*{
+  margin: 0;
+}
+#head_sentence{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-transform:lowercase;
+}
+.button{
+  border-radius:20px;
+  height:5%;
+  width:50%;
+  font-weight:bold;
+  border:none;
+  background-color:white;
+  transition:1s;
+}
+.button:hover{
+  scale:1.5;
+  cursor:pointer;
+  background:#f4becb;;
+  color:white;
+}
+.icons{
+  translate: 0 40px;
+}
+.icons img{
+  width:5%;
+  transition:1s;
+  margin-right: 4%;
+}
+.icons img:hover{
+  scale:3;
+  cursor:pointer;
+}
+
+
+
+
+
+

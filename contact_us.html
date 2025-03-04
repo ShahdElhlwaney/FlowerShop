@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="Styles/contactus_style.css">
+    <title>Floda</title>
+</head>
+<body>
+    <header>
+        <div class="contactus-description">
+            <img class="left-arrow" src="Images/cart/left-arrow.png">
+            <h1>Floda</h1>
+            <p class="contactus-description-stm">Home About Product Flower's Contact</p>
+        </div>
+        <div class="contactus-head">
+            <p id="contact">Contact <span id="us">Us</span></p>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="name">YOUR Name:</label>
+                <div class="name">
+                    <input class="name-input" type="text" required id="name" >
+                    <input class="name-input" type="text" required id="name">
+                </div>
+            </div>
+            <div>
+                <label class="block">Your Email:</label>
+                <input  class="email-input" type="text" required id="name" >
+            </div>
+            <p>Are you looking for an offer?*</p>
+            <div class="radios">
+                <input type="radio" id="yes"  name="offer" value="Yes">
+                <label for="yes" >Yes</label>
+                <input type="radio" id="no"  name="offer" value="No">
+                <label for="no" >No</label>
+            </div>
+            <p>How Can We Help You With?*</p>  
+            <textarea></textarea>
+            <input type="submit" value="Contact Us ->">
+        </form>
+    </main>
+    <script src="/js/home_script.js"></script>
+</body>
+
+</html>

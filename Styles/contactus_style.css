@@ -1,0 +1,139 @@
+:root{
+    --opacity:linear-gradient(rgba(255,255,255,0.5),rgba(230,217,238,0.467)) ;
+    --gray:rgb(58, 57, 57);
+    --light_grey:rgb(199, 199, 199);
+    --green:rgb(106, 188, 106);
+    --pink: rgb(255, 236, 241);
+    --fushia: rgb(255, 12, 255);
+
+
+}
+html{
+    
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+.contactus-description{
+    height: 6rem;
+    width: 100vw;
+    border-bottom: 2px solid var(--light_grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-arrow{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 5rem;
+}
+h1{
+    font-size: 3rem;
+}
+.contactus-description-stm,h1{
+    margin-right: 10rem;
+}
+p{
+    font-size: 2rem;
+}
+.contactus-head{
+    position: relative;
+    width: 90rem;
+    height: 5rem;
+    background-color: var(--pink);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 5rem;
+}
+#contact,#us{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#contact{
+    color: var(--fushia);
+}
+#us{
+    color: black;
+}
+.name{
+    display: flex;
+    width: 100vw;
+    gap: 2rem;
+    justify-content: start;
+}
+input[type="text"],textarea
+{
+    height: 4rem;
+    background-color: var(--pink);
+    border: none;
+    border-bottom: 1px solid var(--fushia);
+    outline:none;
+    margin-top: 2rem;
+}
+.name-input
+{
+    width: 46.8vw;
+}
+label{
+    display: inline;
+}
+.email-input,textarea{
+    width: 95vw;
+    margin-bottom: 3rem;
+}
+input[type='radio'] {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: var(--pink);
+    border: 1px solid var(--fushia);
+    border-radius: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .block{
+    display: block;
+  }
+  .radios{
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+  textarea{
+    height: 10rem;
+  }
+  input[type="submit"]
+  {
+    box-sizing: border-box;
+    background-color: var(--green);
+    border-radius: 6px;
+    border: none;
+    width: 60rem;
+    height: 5rem;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  .left-arrow{
+    cursor: pointer;
+  }
+  

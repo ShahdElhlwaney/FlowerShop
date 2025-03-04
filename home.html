@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower</title>
+    <link rel="stylesheet" href="Styles/home_style.css" >
+    <title>Floda</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Yesteryear&display=swap');
+    </style>
+</head>
+<body>
+    <img class="left-arrow" src="Images/cart/left-arrow.png">
+    <b id="welcomeStatement">Welcome to Floda online store</b>
+    <hr>
+    <div class="container">
+        <nav>
+            <div class="nav_bar">
+                <h1>Floda</h1>
+                <ul>
+                <il class="nav-home">HOME</il>
+                <il><a>PAGES</a></il>
+                <il><a>SHOP</a></il>
+                <il><a>BLOG</a></il>
+                <il class="nav-contactus">CONTACTUS</il>
+                </ul>
+                <div class="icons">
+                    <img class="icon" src="/Images/search.png">
+                    <a href="/profile.html">
+                        <img class="icon" src="/Images/profile.png">
+                    </a>
+                    <img class="icon" src="/Images/heart.png">
+                    <a href="cart.html">
+                        <img class="icon" src="/Images/shopping-cart.png">
+
+                    </a>
+                </div>          
+                <div class="icons_menu" onclick="toggleMenu()">☰</div>
+                <div class="ul_menu" onclick="toggleMenu()">☰</div>
+
+            </div>
+
+        </nav>
+        <div id="banner">
+            <img src="/Images/home_banner.jpg">
+                <small>Valentine Gift</small> 
+                <h2>Fresh Your Mind<br> & Feeling Love</h2>
+                <div id="shopNow">Shop Now</div>
+        </div>
+       
+    <div class="cards">
+        <div class="card card1">
+                <span class="yesteryear-regular">
+                    Wedding Day
+                </span><br>
+                <b> Cadboll Flower</b>
+                <br>
+                <span class="buy_it">Buy it Now</span>
+                
+             
+        </div>
+        <div class="card card2">
+                Black Friday
+            <br>
+              <b>Orchid Stick</b>   <br>
+                <span class="buy_it">Buy it Now</span>
+                
+        </div>
+        <div class="card card3">
+                  10% Off
+            <br>
+            <p>      
+                <b> Tulip Flower</b> <br>
+               <span class="buy_it"> Buy it Now</span>  
+            </p>     
+        </div>
+        </div> 
+        <div class="avantages">
+            <div class="advantage">
+                <img src="/Images/free-delivery.png">
+                    <p>
+                        <span>
+                            <b>FREE SHIPPING</b>
+                        </span>
+                        <span class="advantage_description">
+                            free shipping all order
+                        </span>
+                    </p>
+            </div>
+            <div class="advantage">
+                <img src="/Images/24-hours-support.png">
+                    <p>
+                        <span>
+                            <b>SUPPORT 24/7</b>
+                        </span>
+                        <span class="advantage_description">
+                            Support 24 hours a day
+                        </span>
+                    </p>
+            </div>
+            <div class="advantage">
+                <img src="/Images/dollar.png">
+                    <p>
+                        <span>
+                            <b>MONEY RETURN</b>
+                        </span>
+                        <span class="advantage_description">
+                            30 days for free return
+                        </span>
+                    </p>
+            </div>
+            <div class="advantage">
+                <img src="/Images/discount.png">
+                    <p>
+                        <span>
+                            <b>ORDER DISCOUNT</b>
+                        </span>
+                        <span class="advantage_description">
+                            On every order over $15
+
+                        </span>
+                    </p>
+            </div>
+        </div>
+        <div class="new_products">
+            <h2>New Products</h2>
+            <p id="new_products_statement">Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p>
+            <div class="products">
+                <div class="product">
+                    <div class="img" id="img1">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            10%
+                        </div>
+                        
+                    </div>
+                    
+                    <p>
+                        Flowers bouquet pink
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        570.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img2">
+                        <div class="new">
+                            New
+                        </div>
+                        
+                    </div>
+                    <p>
+                     Jasmine flowers white
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        70.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img3">
+                        <div class="new">
+                            New
+                        </div>
+                        
+                    </div>
+                    <p>
+                      Blossom bouquet flower
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $50.00
+                    </b>
+                    <del class="prev_salary">
+                        680.00
+                    </del>
+                    </span>  
+                </div>
+                <div  class="product">
+                    <div class="img" id="img4">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            15%
+                        </div>
+                    </div>
+                    <p>
+                      Hyacinth white stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $30.00
+                    </b>
+                    <del class="prev_salary">
+                        555.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img5">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            30%
+                        </div>
+                    </div>
+                    <p>
+                      Orchid flower red stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $80.00
+                    </b>
+                    <del class="prev_salary">
+                        590.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img6">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            12%
+                        </div>
+                    </div>
+                    <p>
+                      Flowers daisy pink stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $40.00
+                    </b>
+                    <del class="prev_salary">
+                        650.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img7">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            10%
+                        </div>
+                    </div>
+                    <p>
+                      blue bouquet white
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $55.00
+                    </b>
+                    <del class="prev_salary">
+                        680.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img8">
+                        <div class="discount">
+                            10%
+                        </div>
+                    </div>
+                    <p>
+                      Bouquet flowers pink
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        670.00
+                    </del>
+                    </span>  
+                </div>
+               
+            </div>
+           
+           
+       
+       
+        </div>
+        <button>View More Products</button>
+        <div class="banners">
+            <div class="banner1">
+                <span class="yesteryear-regular">
+                    For you
+                </span><br>
+                <b> Tulip Flower</b>
+                <br>
+                <span class="shop_now">Shop Now</span>
+            </div>
+            <div class="banner2">
+                <span class="yesteryear-regular">
+                    For you
+                </span><br>
+                <b> Flower & Box</b>
+                <br>
+                <span class="shop_now">Buy it Now</span>
+            </div>
+        </div>
+       <div class="top_seller_products">
+        <h2>Top Seller</h2>
+        <p id="top_seller_statement">
+            Accumsan vitae pede lacus ut ullamcorper sollicitudin quisque libero</p>
+            <div class="products">
+                <div class="product">
+                    <div class="img" id="img1">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            10%
+                        </div>
+                        
+                    </div>
+                    
+                    <p>
+                        Flowers bouquet pink
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        570.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img2">
+                        <div class="new">
+                            New
+                        </div>
+                        
+                    </div>
+                    <p>
+                     Jasmine flowers white
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        70.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img3">
+                        <div class="new">
+                            New
+                        </div>
+                        
+                    </div>
+                    <p>
+                      Blossom bouquet flower
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $50.00
+                    </b>
+                    <del class="prev_salary">
+                        680.00
+                    </del>
+                    </span>  
+                </div>
+                <div  class="product">
+                    <div class="img" id="img4">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            15%
+                        </div>
+                    </div>
+                    <p>
+                      Hyacinth white stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $30.00
+                    </b>
+                    <del class="prev_salary">
+                        555.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img5">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            30%
+                        </div>
+                    </div>
+                    <p>
+                      Orchid flower red stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $80.00
+                    </b>
+                    <del class="prev_salary">
+                        590.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img6">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            12%
+                        </div>
+                    </div>
+                    <p>
+                      Flowers daisy pink stick
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $40.00
+                    </b>
+                    <del class="prev_salary">
+                        650.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img7">
+                        <div class="new">
+                            New
+                        </div>
+                        <div class="discount">
+                            10%
+                        </div>
+                    </div>
+                    <p>
+                      blue bouquet white
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $55.00
+                    </b>
+                    <del class="prev_salary">
+                        680.00
+                    </del>
+                    </span>  
+                </div>
+                <div class="product">
+                    <div class="img" id="img8">
+                        <div class="discount">
+                            10%
+                        </div>
+                    </div>
+                    <p>
+                      Bouquet flowers pink
+                    </p>
+                    <span class="salary">
+                    <b>
+                        $60.00
+                    </b>
+                    <del class="prev_salary">
+                        670.00
+                    </del>
+                    </span>  
+                </div>
+               
+            </div>
+        </div>
+    </div>
+   <script src="/js/home_script.js"></script>
+</body>
+</html>
