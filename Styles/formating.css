@@ -1,6 +1,6 @@
 
  body{
-  background-image:url('https://shahdelhlwaney.github.io/FlowerShop/Images/flower.png');
+  background-image:url('../Images/flower.png');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
